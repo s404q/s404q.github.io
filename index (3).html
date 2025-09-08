@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>ABTSTUDIO | Modern Designer Bags</title>
+  <meta name="description" content="ABTSTUDIO — Premium handbags with timeless design and exceptional craftsmanship. Limited offer, US shipping, easy returns." />
+  <style>
+    :root { --bg:#f9fafb; --fg:#111827; --muted:#6b7280; --primary:#111827; --primary-2:#374151; --card:#ffffff; --accent:#eab308; --radius:16px; --shadow:0 6px 18px rgba(0,0,0,.1) }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:Inter,Roboto,Helvetica,Arial,sans-serif}
+    img{max-width:100%;display:block;border-radius:12px}
+    .container{max-width:1060px;margin:0 auto;padding:16px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:999px;background:var(--primary);color:#fff;font-weight:600;transition:.2s;box-shadow:var(--shadow)}
+    .btn:hover{background:var(--primary-2)}
+    .btn-outline{background:transparent;border:1px solid var(--fg);color:var(--fg)}
+    h1{font-size:34px;line-height:1.2;margin:14px 0 12px}
+    h2{font-size:24px;margin:20px 0 12px}
+    .sub{color:var(--muted);font-size:15px}
+    .gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px}
+    @keyframes pulse{0%{transform:scale(1);box-shadow:0 0 0 0 rgba(220,38,38,.6)}70%{transform:scale(1.05);box-shadow:0 0 0 12px rgba(220,38,38,0)}100%{transform:scale(1);box-shadow:0 0 0 0 rgba(220,38,38,0)}}
+    .btn.pulse{animation:pulse 2s infinite}
+    @media (max-width:768px){h1{font-size:26px}h2{font-size:20px}.btn{padding:10px 16px;font-size:15px}.container{padding:12px}}
+    @media (max-width:480px){h1{font-size:22px}h2{font-size:18px}.btn{padding:8px 14px;font-size:14px}nav .container{flex-direction:column;gap:8px}}
+    .btn{min-height:44px}
+    @media (max-width:560px){h1{font-size:26px;line-height:1.25}.sub{font-size:14px}.container{padding:14px}.btn{padding:12px 16px}.hero .container{grid-template-columns:1fr !important;gap:20px;align-items:start}}
+    @media (prefers-reduced-motion: reduce){.btn.pulse{animation:none}}
+  </style>
+</head>
+<body>
+  <nav class="nav" style="background:#fff;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:50;">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;padding:14px 16px">
+      <div style="font-weight:700;font-size:18px;display:flex;gap:10px;align-items:center">ABTSTUDIO</div>
+      <a class="btn-outline btn" href="#contact">Contact Us</a>
+    </div>
+  </nav>
+
+  <header class="hero" style="padding:60px 0">
+    <div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center">
+      <div>
+        <h1>Get the same quality for 10/1 the price</h1>
+        <p class="sub">⏱ Delivered within 7 days</p>
+        <div style="margin:20px 0">
+          <span style="font-size:28px;font-weight:800">$129</span>
+          <span style="color:#dc2626;font-weight:600;margin-left:8px">🔥 Limited Offer</span>
+          <del style="margin-left:8px;color:var(--muted)">$189</del>
+        </div>
+        <a class="btn pulse" href="https://wa.me/18702921112" target="_blank">Shop Now</a>
+      </div>
+      <div>
+        <img src="https://i.imgur.com/0KKosXp.png" alt="Hero Image" loading="lazy" width="500" height="375" />
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h2>Why Choose ABTSTUDIO?</h2>
+      <ul style="color:var(--muted);line-height:1.8">
+        <li>Minimalist European-inspired design</li>
+        <li>Premium leather, durable and soft</li>
+        <li>Handcrafted with precision</li>
+        <li>Timeless style that elevates any outfit</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" style="background:#fff">
+    <div class="container">
+      <h2>Product Gallery</h2>
+      <div class="gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px">
+        <img src="https://i.imgur.com/Q4U81hZ.jpeg" alt="Detail Image 1" loading="lazy" width="400" height="400" />
+        <img src="https://i.imgur.com/Jfpdv6W.jpeg" alt="Detail Image 2" loading="lazy" width="400" height="400" />
+        <img src="https://i.imgur.com/0c6GNcT.jpeg" alt="Detail Image 3" loading="lazy" width="400" height="400" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#f3f4f6">
+    <div class="container">
+      <h2>Customer Reviews</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px">
+        <div style="background:var(--card);padding:20px;border-radius:var(--radius);box-shadow:var(--shadow)">
+          <div>★★★★★</div>
+          <p>“The craftsmanship is outstanding. It feels elegant and pairs beautifully with my work outfits.”</p>
+          <small class="sub">— Emma, USA</small>
+        </div>
+        <div style="background:var(--card);padding:20px;border-radius:var(--radius);box-shadow:var(--shadow)">
+          <div>★★★★★</div>
+          <p>“Stylish and practical. The leather feels premium, and I’ve received so many compliments.”</p>
+          <small class="sub">— Sophia, USA</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="sub">For orders, wholesale, or partnership inquiries, reach out to us:</p>
+      <a class="btn" href="https://wa.me/18702921112" target="_blank">WhatsApp</a>
+      <a class="btn btn-outline" href="mailto:sales@example.com">Email</a>
+    </div>
+  </section>
+
+  <footer style="padding:24px 0;text-align:center;color:var(--muted);font-size:13px">© <span id="year"></span> ABTSTUDIO · All rights reserved</footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
